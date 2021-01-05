@@ -17,6 +17,7 @@ cc_binary {
     name: "android.hardware.light@2.0-service.xiaomi_sm6150",
     defaults: ["hidl_defaults"],
     init_rc: ["android.hardware.light@2.0-service.xiaomi_sm6150.rc"],
+    vintf_fragments: ["android.hardware.light@2.0-service.xiaomi_sm6150.xml"],
     srcs: [
         "service.cpp",
         "Light.cpp",
