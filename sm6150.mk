@@ -234,6 +234,7 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
+		android.hardware.media.omx@1.0-service \
     libavservices_minijail \
     libavservices_minijail.vendor \
 		libc2dcolorconvert \
@@ -246,7 +247,8 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Enc \
     libOmxVdec \
     libOmxVenc \
-    libstagefrighthw
+    libstagefrighthw \
+		libstagefright_omx.vendor
 
 # PRODUCT_PACKAGES += \
 #     libcodec2_vndk.vendor \
