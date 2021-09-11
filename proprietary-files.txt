@@ -415,10 +415,6 @@ vendor/lib/libgcs-calwrapper.so
 vendor/lib/liblistensoundmodel2.so
 
 # Media - from LA.UM.9.1.r1-10900-SMxxx0.0
-vendor/bin/hw/vendor.qti.media.c2@1.0-service
-vendor/etc/init/vendor.qti.media.c2@1.0-service.rc
-vendor/etc/seccomp_policy/codec2.vendor.base.policy
-vendor/etc/seccomp_policy/codec2.vendor.ext.policy
 vendor/bin/vppservice|0f77fd06c6438ded5e5704769db6cb1154d96cbe
 vendor/etc/configstore/vpp.configstore.xml|ed961545186c66fd9523f25866c74f2e11ee63d7
 vendor/etc/init/vppservice.rc|24c089e0e413cbb3fa6daaf0af4215870bdf1b8e
@@ -437,7 +433,6 @@ vendor/lib/libOmxDsdDec.so|f74936badeb8303b2bb17475b9cd157b1c81131c
 vendor/lib/libOmxEvrcDec.so|ad5886dfe926939436176fc536f3063a02030f38
 vendor/lib/libOmxQcelp13Dec.so|fd941876c153a669eb41395b869de57001a431d8
 vendor/lib/libOmxVpp.so|e4728f604f69a9fc4c07d12cf666839c77ec6555
-vendor/lib/libqcodec2.so|
 vendor/lib/libOmxWmaDec.so|9e30df0b706ef4420b0ac6052f98bec8e41ea412
 vendor/lib/libOmxVideoDSMode.so|be98151cc1b1b48cbd34a360cc5becc78c21cf7e
 vendor/lib/libdsd2pcm.so|c5ab1afd7a5a23bf83d80b5ac74247c3dd2085af
@@ -451,7 +446,10 @@ vendor/lib/vendor.qti.hardware.vpp@1.1.so|e84787e0b689d10a30c4ec3ded8858f0b62232
 vendor/lib/vendor.qti.hardware.vpp@1.2.so|fc3b81e25f5af4292d032138c46e31b98a7b622a
 vendor/lib/vendor.qti.hardware.vpp@1.3.so|535398187d8a935e7e0d152e8fbb3ef034ba6e6f
 vendor/lib64/libAlacSwDec.so|9fbfad65ffca33e1ac480e9cb056467ac75a6d5a
+<<<<<<< HEAD
 vendor/lib/libqcodec2.so|
+=======
+>>>>>>> 3975d966 (sm6150-common:Kang Display Media and Graphics props from davinci)
 vendor/lib64/libApeSwDec.so|76d3cc02ca1c3cdc3c71e57dc6e53027d2bf3d37
 vendor/lib64/libFlacSwDec.so|002aa39927e75568efb81c7ae3a044c694babfc3
 vendor/lib64/libI420colorconvert.so|829dacf78c4bf6700986d2d5d2013d055b342177
