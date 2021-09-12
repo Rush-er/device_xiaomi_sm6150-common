@@ -243,10 +243,10 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
-		android.hardware.media.omx@1.0-service \
+    android.hardware.media.omx@1.0-service \
     libavservices_minijail \
     libavservices_minijail.vendor \
-		libc2dcolorconvert \
+    libc2dcolorconvert \
     libmm-omxcore \
     libOmxAacEnc \
     libOmxAmrEnc \
@@ -257,14 +257,9 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw \
-		libstagefright_omx.vendor
-
-# PRODUCT_PACKAGES += \
-#     libcodec2_vndk.vendor \
-#     libcodec2_hidl@1.0.vendor
-
-# Codec2 modules
-PRODUCT_PACKAGES += \
+    libstagefright_omx.vendor \
+    libcodec2_vndk.vendor \
+    libcodec2_hidl@1.0.vendor \
     com.android.media.swcodec \
     libsfplugin_ccodec
 
@@ -273,7 +268,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/media/media_codecs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs.xml \
     $(LOCAL_PATH)/media/media_codecs_performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance.xml \
     $(LOCAL_PATH)/media/system_properties.xml:$(TARGET_COPY_OUT_VENDOR)/etc/system_properties.xml	\
-		$(LOCAL_PATH)/media/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/mediacodec-seccomp.policy
+    $(LOCAL_PATH)/media/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/mediacodec-seccomp.policy
 
 PRODUCT_COPY_FILES += \
     # frameworks/av/media
