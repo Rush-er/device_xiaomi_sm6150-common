@@ -345,6 +345,10 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel \
     hardware/xiaomi
 
+# Shims
+PRODUCT_PACKAGES += \
+    libgui-shim
+
 # Telephony
 PRODUCT_PACKAGES += \
     qti_telephony_hidl_wrapper.xml \
