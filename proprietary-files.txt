@@ -240,6 +240,9 @@ vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
 vendor/lib64/libbase64.so
 vendor/lib64/libcpion.so
 vendor/lib64/librmp.so
+vendor/lib64/libhdcpsrm.so
+vendor/lib64/libminksocket.so
+vendor/lib64/libtrustedapploader.so
 vendor/lib64/libwvhidl.so
 vendor/lib64/mediadrm/libwvdrmengine.so
 
@@ -249,11 +252,8 @@ vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da
 vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so|0af387d416acf6d697b9edd4090e3a6941696970
 
-# DRM - Widevine L1 - from davinci-user 11 RKQ1.200826.002 V12.1.2.0.RFJMIXM release-keys
-vendor/lib64/libhdcpsrm.so
-vendor/lib64/libminksocket.so|0722b9042892e83d4c615e0f70e4ad040365b170
+# DRM - Widevine L1  - from davinci-user 11 RKQ1.200826.002 V12.1.2.0.RFJMIXM release-keys
 vendor/lib64/liboemcrypto.so|6b8c5ab8cb16b7f42071ddc59ac868fa684cff4e
-vendor/lib64/libtrustedapploader.so|53f72443cbbdec707658ffd46fcf418361315a06
 
 # Firmware
 vendor/firmware/a615_zap.b00
