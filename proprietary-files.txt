@@ -240,7 +240,6 @@ vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
 vendor/lib64/libbase64.so
 vendor/lib64/libcpion.so
 vendor/lib64/librmp.so
-vendor/lib64/libhdcpsrm.so
 vendor/lib64/libminksocket.so
 vendor/lib64/libtrustedapploader.so
 vendor/lib64/libwvhidl.so
