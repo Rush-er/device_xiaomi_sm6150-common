@@ -504,6 +504,8 @@ Return<void>  BiometricsFingerprint::onFingerUp() {
 }
 
 Return<void> BiometricsFingerprint::onShowUdfpsOverlay() {
+    TouchFeatureService = ITouchFeature::getService();
+    TouchFeatureService->setTouchMode(Touch_Fod_Enable, 1);
     return Void();
 }
 
