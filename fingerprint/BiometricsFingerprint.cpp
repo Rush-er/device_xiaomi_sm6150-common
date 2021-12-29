@@ -105,8 +105,7 @@ std::thread([this]() {
                 ALOGE("failed to poll fd, err: %d", rc);
                 continue;
             }
-            xiaomiFingerprintService = IXiaomiFingerprint::getService();
-            xiaomiFingerprintService->extCmd(COMMAND_NIT, readBool(fd) ? PARAM_NIT_630_FOD : PARAM_NIT_NONE);
+            extCmd(COMMAND_NIT, readBool(fd) ? PARAM_NIT_630_FOD : PARAM_NIT_NONE);
         }
     }).detach();
 
