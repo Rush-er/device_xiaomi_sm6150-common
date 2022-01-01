@@ -98,9 +98,6 @@ function blob_fixup() {
     vendor/etc/init/vendor.sensors.qti.rc )
     echo "    disabled" >> "${2}"
     ;;
-    system_ext/lib64/lib-imsvideocodec.so)
-        $PATCHELF_TOOL --add-needed "libgui-shim.so" "${2}"
-    ;;
     esac
 }
 
