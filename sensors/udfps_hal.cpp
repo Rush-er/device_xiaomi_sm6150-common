@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#define LOG_TAG "sensors.udfps"
+#define LOG_TAG "sensors.udfps_sm6150"
 
 #include <errno.h>
 #include <fcntl.h>
